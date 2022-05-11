@@ -2,8 +2,10 @@ const words = [
     "ain't",  "aren't", "can't",  "couldn't",
     "didn't", "doesn't", "don't",  "hadn't",
     "hasn't", "haven't", "isn't",  'meant',
-    "musn't", "needn't", "shan't", "wasn't"
-]
+    "musn't", "needn't", "shan't", "wasn't",
+    // "mightn't",
+]  
+
 const { length: numberOfWords } = words;
 const numberOfColumns = Math.sqrt(numberOfWords);
 
